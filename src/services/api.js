@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { auth } from '../config/firebase';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://cwi-backend.vercel.app/api';
 
 // Create axios instancenpm 
 const api = axios.create({
